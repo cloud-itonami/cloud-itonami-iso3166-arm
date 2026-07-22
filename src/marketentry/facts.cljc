@@ -128,25 +128,7 @@
           :ineligible-bidders-list-provenance "https://members.wto.org/crnattachments/2018/GPA/ARM/18_3943_00_e.pdf"
           :corporate-number-owner-authority "Իրավաբանական անձանց պետական ռեգիստրի գործակալություն (Agency for the State Register of Legal Persons, Staff of the Ministry of Justice of the Republic of Armenia)"
           :corporate-number-legal-basis "ՀՎՀՀ (հարկ վճարողի հաշվառման համարանիշ / Taxpayer Identification Number, TIN, referred to by this English acronym even in Armenia's own official English-language documents) -- per the State Revenue Committee's OWN submission to the OECD, the TIN 'is issued ... by State Register' AT THE MOMENT of state registration of the legal person, under the Law of the Republic of Armenia \"On State Registration of Legal Persons, State Record-Registration of Separate Subdivisions, Institutions of Legal Persons and Individual Entrepreneurs\" (Law No. HO-169, adopted 3 April 2001, as amended) -- a SINGLE act performed by the Ministry-of-Justice-run Agency for the State Register of Legal Persons, NOT a separate subsequent act by the State Revenue Committee itself."
-          :corporate-number-provenance "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/armenia-tin.pdf"}
-   "USA" {:name "United States"
-          :owner-authority "U.S. General Services Administration (GSA) / SAM.gov"
-          :legal-basis "Federal Acquisition Regulation (FAR); System for Award Management"
-          :national-spec "SAM.gov entity registration + NAICS self-certification"
-          :provenance "https://sam.gov/"
-          :required-evidence ["EIN record"
-                              "SAM.gov registration record"
-                              "State business registration record"
-                              "Authorized-representative record"]}
-   "DEU" {:name "Germany"
-          :owner-authority "Beschaffungsamt des BMI / e-Vergabe platforms"
-          :legal-basis "Gesetz gegen Wettbewerbsbeschränkungen (GWB) / VgV"
-          :national-spec "e-Vergabe supplier registration under EU procurement directives"
-          :provenance "https://www.evergabe-online.de/"
-          :required-evidence ["Handelsregister extract"
-                              "e-Vergabe registration record"
-                              "USt-IdNr record"
-                              "Authorized-representative record"]}})
+          :corporate-number-provenance "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/armenia-tin.pdf"}})
 
 (defn spec-basis
   "The jurisdiction's requirement map, or nil -- nil means NO spec-basis,
