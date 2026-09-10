@@ -52,7 +52,7 @@ department.
 | Governor | `:market-entry-compliance-governor` |
 | Ops | `:engagement/intake` · `:jurisdiction/assess` · `:filing/draft` · `:filing/submit` |
 | Flagship HARD check | `ineligible-bidder-listed` (Law on Procurement Article 6(1)(6)/(2), an unconditional registry-membership check independently re-verified -- see `docs/adr/0001-architecture.md`) |
-| Compliance catalog | `src/statute/facts.cljc` -- Law on Limited Liability Companies, Labour Code, Law on Protection of Personal Data |
+| Compliance catalog | `src/statute/facts.kotoba` -- Law on Limited Liability Companies, Labour Code, Law on Protection of Personal Data |
 | Tests | `clojure -M:dev:test` |
 | Demo | `clojure -M:dev:run` |
 | Architecture ADR | [`docs/adr/0001-architecture.md`](docs/adr/0001-architecture.md) |
@@ -122,7 +122,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) -- national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Armenia:
 
-- `src/culture/facts.cljc` -- the catalog, source of truth (keyed by
+- `src/culture/facts.kotoba` -- the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` -- DataScript schema.
 - `data/culture-tx.edn` -- derived DataScript tx-data (regenerated from
